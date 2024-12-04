@@ -1,0 +1,34 @@
+{
+  "name": "RBLXVRGui",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      "Package": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/Packages"
+      }
+    },
+
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "Server": {
+        "$ignoreUnknownInstances": true,
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$ignoreUnknownInstances": true,
+        "Client": {
+          "$ignoreUnknownInstances": true,
+          "$path": "src/client"
+        }
+      }
+    }
+
+  }
+}
